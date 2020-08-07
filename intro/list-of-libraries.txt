@@ -1,0 +1,6 @@
+dplyr
+ggplot2
+data.table
+shiny
+plyr
+tidyverse
