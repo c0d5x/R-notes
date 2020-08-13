@@ -42,3 +42,11 @@ ggplot(dolar2020, aes(x=Date)) +
   labs(y="Compra vs Venta") +
   scale_x_date(breaks = "1 month", minor_breaks = "1 week", labels=date_format("%b"))
 ggsave(file="dolar-2020-compraventa.pdf", width=12, height=6, dpi=300)
+
+lastMonth <- dolar[dolar$Date > Sys.Date()-30,]
+ggplot(lastMonth, aes(x=Date)) +
+  ggtitle("Last Month") +
+  geom_step( aes(y=Sell), size=1) +
+  labs(y="Venta") +
+  scale_x_date(breaks = "1 day", labels=date_format("%d"))
+ggsave(file="dolar-last-month.pdf", width=12, height=6, dpi=300)
