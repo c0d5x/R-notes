@@ -2,6 +2,9 @@ library(ggplot2)
 library(scales)
 library(plotly)
 
+buyColor = 'red'
+sellColor = 'blue'
+
 # load historical data
 dolar <- read.csv("crc-usd.csv", header=TRUE)
 
