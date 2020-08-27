@@ -1,0 +1,4 @@
+Go to
+https://gee.bccr.fi.cr/indicadoreseconomicos/cuadros/frmvercatcuadro.aspx?CodCuadro=400&Idioma=2&FecInicial=2020/08/04&FecFinal=2020/08/27&Filtro=0
+
+Select dates, click go, then click export, open in excel/other, open crc-usd.csv, copy missing data to crc-usd.csv, save as .csv

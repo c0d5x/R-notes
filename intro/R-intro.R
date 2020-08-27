@@ -36,6 +36,7 @@ sink()
 # seeing mem objects
 objects()
 ls()
+object.size(obj1)  # mem size
 
 # free/remove objects from mem
 obj1 <- c(1:100)
