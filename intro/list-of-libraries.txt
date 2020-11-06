@@ -4,3 +4,12 @@ data.table
 shiny
 plyr
 tidyverse
+
+
+
+install.packages("dplyr")
+install.packages("ggplot2")
+install.packages("data.table")
+install.packages("shiny")
+install.packages("plyr")
+install.packages("tidyverse")
